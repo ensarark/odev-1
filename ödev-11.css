@@ -1,0 +1,489 @@
+*{
+    margin: 0px;
+    
+    font-family: sans-serif;
+}
+.navbar{
+    width:100%;
+    height:60px;
+    position: fixed;
+    z-index: 999999 ;
+    position: absolute;
+    top:-3px;
+    left:-3px;
+}
+nav{
+    width: 100%;
+    padding: 20px;
+    border: 0.2px solid white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+    
+}
+
+nav h1{
+    color: white;
+}
+
+nav ul li   {
+    display: inline;
+    margin: 40px;
+}
+a:hover{
+    color: rgb(104, 93, 93);
+    transition: all 0.2s;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(194, 180, 180);
+    font-size: 15px;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+.arkaplan{
+    background-image: url(arkaplan.jpg);
+    background-size:1310px 700px ;
+    background-repeat: no-repeat;
+}
+.logo{
+    cursor: pointer;
+}
+.navbtn{
+    cursor: pointer;
+    width:200px;
+    height:40px;
+    color: gray;
+    background-color: white;
+    border-radius:10px;
+    position: absolute;
+    right: 90px;
+    top: 28px;
+}
+.navbtn:hover{
+    background-color: grey;
+    color: white;
+}
+
+.artı{
+    width:30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 15px;
+    position: absolute;
+    top:5px;
+    left:20px;
+}
+.anadiv{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    color: white;
+}
+.içerik{
+    width: 1100px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 410px;
+    left:110px;
+    border-radius:10px;
+    display:inline;
+
+}
+.display{
+    display: inline-block;
+}
+.combobox{
+    position:relative;
+    bottom:30px;
+    left:30px;
+    width:220px;
+    height:30px;
+    font-size: 15px;
+     border: 2px solid white;
+      color: gray;
+
+}
+.combobox:visited{
+    border: 2px solid white;
+
+}
+.altkısımm{
+    width: 700px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+    
+}
+.daire{
+    cursor: pointer;
+    margin: 30px;
+    width:70px;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+    border-radius:35px;
+}
+.daire:hover{
+    background-color: rgb(49, 45, 105);
+    transition: all 0.2s;
+}
+.daire3{
+    cursor: pointer;
+    width:70px;
+    height:70px;
+    background-color: rgb(255, 255, 255);
+    border-radius:35px;
+    position: absolute;
+    left: 20px;
+    margin: 20px;
+}
+
+.icon{
+    font-size:35px;color: gray;position: relative;top:16px;left:16px;
+}
+.alt{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 700px;
+    text-align: center;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#f1f1f1;
+    opacity:0.6;
+    transition: all 1s;
+    height:40px;   
+  }   
+  
+  
+  .sticky + .content {
+    padding-top: 150px;
+  }
+  .alt2{
+    width:1200px;
+    height: 602px;
+    background-color:#2b2d42;
+    position: absolute;
+    top: 950px;
+    left: 75px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .alt3{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 1550px;
+
+  }
+  
+  .yantaraf{
+    height: 100%;
+    width:300px;
+  }
+  .yan1{
+    width: 100%;
+    height: 120px;
+    border-top: 2px solid #2b2d42;
+    border-left: 2px solid #2b2d42;
+    border-bottom: 2px solid #2b2d42;
+    background-color:#8d99af;
+    cursor: pointer;
+    border-radius: 10px 0px 0px 0px;
+
+
+  }
+  .yan1:hover{
+    background-color:#2b2d42;
+    transition:all 1s;
+  }
+  .yan2:hover{
+    background-color:#2b2d42;
+    transition: all 1s;
+  }
+  .yan3:hover{
+    background-color:#2b2d42;
+    transition: all 1s;
+  }
+  .yan4:hover{
+    background-color:#2b2d42;
+    transition: all 1s;
+  }
+  .yan5:hover{
+    background-color:#2b2d42;
+    transition: all 1s;
+  }
+  .yan1div{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    
+  }
+  .yan2div{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    display: none;
+    
+  }
+  .yan3div{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    display:none;
+   
+    
+  }
+  .yan4div{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    display:none;
+   
+    
+  }
+  .yan5div{
+    width: 750px;
+    height: 500px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    display:none;
+   
+    
+  }
+  .yan2{
+    width: 100%;
+    height: 120px;
+    border-left: 2px solid #2b2d42;
+    border-bottom: 2px solid #2b2d42;
+    background-color:#8d99af;
+    cursor: pointer;
+  }
+  .yan3{
+    width: 100%;
+    height: 120px;
+    border-left: 2px solid #2b2d42;
+    border-bottom: 2px solid #2b2d42;
+    background-color:#8d99af;
+    cursor: pointer;
+  }
+  .yan4{
+    width: 100%;
+    height: 120px;
+    border-left: 2px solid #2b2d42;
+    border-bottom: 2px solid #2b2d42;
+    background-color:#8d99af;
+    cursor: pointer;
+  }
+  .yan5{
+    width: 100%;
+    height: 110px;
+    border-left: 2px solid #2b2d42;
+    border-bottom: 2px solid #2b2d42;
+    background-color:#8d99af;
+    cursor: pointer;
+    border-radius: 0px  0px 0px 10px;
+  }
+  .btn{
+    width: 250px;
+    height:40px;
+    position: absolute;
+    bottom:150px;
+    left:60px;
+    border-radius:10px;
+    border: 0px ;
+    font-size: 15px;
+
+  }
+  .t:hover{
+    cursor: pointer;
+     background-color: #8d99af;
+     color: white;
+     transition: all 0.5s;
+  }
+  .alt4{
+    width:1100px;
+    height: 377px;
+    background-color: #f8f4f4;
+    position: absolute;
+    top:2250px;
+    left: 110px;
+  }
+
+  .alt5{
+    width:1100px;
+    height: 377px;
+    background-color: #f8f4f4;
+    position: absolute;
+    top: 1850px;
+    left: 110px;
+    border-radius: 10px;
+   
+  }
+  .alt6{
+    width:1100px;
+    height: 377px;
+    background-color: #f8f4f4;
+    position: absolute;
+    top: 2650px;
+    left: 110px;
+    border-radius: 10px;
+  }
+  .alt7{
+    width: 100%;
+    height: 400px;
+
+    position: absolute;
+    top: 3300px;
+  }
+  .başlık{
+    position: absolute;
+    top: 80px;
+    right: 310px;
+    color: rgb(51, 49, 49);
+  }
+  .etiket{
+    width: 35px;
+    height: 35px;
+    background-color:   #8d99af ;
+    position: absolute;
+    top: 170px;
+    left: 540px;
+    border-radius: 30px;
+  }
+  .lt{
+    width: 500px;
+    height: 50px;
+    color:  rgb(110, 106, 106);
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .lt1{
+    width: 350px;
+    height: 50px;
+   line-height: 30px;
+   position: absolute;
+   left: 100px;
+   top:120px;
+   font-size:16px;
+   color:  rgb(110, 106, 106);
+  }
+  .lt2{
+    color:gray;
+    position: absolute;
+    left: 520px;
+    top: 50px;
+    font-size: 30px;
+  }
+  .h{
+    width: 100px;
+    height: 200px;
+  color: #8d99af;
+    position: absolute;
+    left: 520px;
+    top: 100px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .h a:hover{
+    cursor: pointer;
+    color: rgb(77, 73, 73);
+    text-decoration:underline;
+
+  }
+  .h2{
+    width: 100px;
+    height: 200px;
+    color: #8d99af;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .h2 a:hover{
+    cursor: pointer;
+    color: rgb(77, 73, 73);
+    text-decoration:underline;
+
+  }
+  .lt3{
+    color:gray;
+    width: 300px;
+    height: 120px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+  }
+  .h3{
+    font-size: 15px;
+    color: #8d99af;
+    position: absolute;
+    top: 50px; 
+  }
+  .solalt{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .solalt:hover{
+    
+    cursor: pointer;
+    color: rgb(77, 73, 73);
+    text-decoration:underline;
+  }
+  .sağalt{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .sağalt:hover{
+    cursor: pointer;
+    color: rgb(77, 73, 73);
+    text-decoration:underline;
+  }
+  .yazi{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 90px;
+    top:28px;
+  }
+  .altyazı{
+    width: 1000px;
+    position: absolute;
+    left: 180px;
+    top: 210px;
+    color: white;
+    font-size: 15px;
+  }
+  
+
+
+
+
+

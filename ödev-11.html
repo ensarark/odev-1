@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ödev-11</title>
+    <link rel="stylesheet" href="ödev-11.css">
+    <script src="https://kit.fontawesome.com/1921bca307.js" crossorigin="anonymous"></script>
+</head>
+<body class="arkaplan">
+    <div class="navbar"  >
+<nav id="navbarr" >
+    <img class="logo" src="white-logo (1).png">
+    <ul>
+        <li>
+            <a href="#">
+
+                HOME
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                CATEGORY
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                LISTING
+
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                CONTACT US
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              
+            </a>
+        </li>
+        <li>
+            <a href="#">
+              
+            </a>
+        </li>
+    </ul>
+    <div class="navbtn ">
+        <div class="artı"><i style="color: white;font-size:20px;position: absolute;left:6px;top:5px;" class="fa-solid fa-plus"></i></div>
+        <a style="font-size:15px;position: absolute;top:10px;left: 60px;">Add Your Listing</a>
+    </div>
+</nav>
+</div>
+<div class="anadiv">
+    <a style="font-size:18px;line-height: 400px;">OVER 36,500+ ACTIVE LISTINGS</a>
+</div>
+<a style="font-size:60px;color: white;position: relative;top: 310px;left:250px;">Find Nearby Places & Things</a>
+<div class="içerik"> 
+    <div class="display" style="width: 270px;height: 70px;">
+        <select name="iller" size="1" class="combobox">
+            <option  name="none">All Areas</option>
+                <option value="plaka54">New Village</option>
+                <option value="plaka06">Old Town</option>
+                <option value="plaka34">Modern City</option>
+        </select>
+    </div>
+    <div class="display" style="width: 270px;height: 70px;">
+        <input class="combobox" type="text" placeholder="Enter a location" >
+    </div>
+    <div class="display" style="width: 270px;height: 70px;">
+        <select name="iller" size="1" class="combobox">
+            <option  name="none">Price Range</option>
+                <option value="plaka54">$100 - $250</option>
+                <option value="plaka06">$250 - $500</option>    
+                <option value="plaka34">$500 - $1,000</option>
+                <option value="plaka34">$1,000 or more</option>
+        </select>
+    </div>
+    <div class="display" style="background-color: gray; width: 270px;height: 70px;">
+    <div style="background-color:gray; height:70px;width:100px;border-radius:10px;position: relative;left:180px;"></div>
+    </div>
+    <div style="width:200px;height:50px;position: relative;left:840px;bottom:110px;">
+        <div style="width:50px;height: 50px;background-color:white;border-radius: 25px;position: absolute;top:0px;left:15px;">
+            <i style="color:gray; font-size:30px;position: absolute;left:10px;top:8px;" class="fa-solid fa-magnifying-glass"></i></div>
+      <a style="font-size: 20px; color: white;position: absolute;left: 80px;top:13px;">  Search Now</a>
+    </div>
+    <div class="altkısımm">
+        <div class="daire display"><i class="fa-solid fa-house icon"></i></div>
+        <div class="daire display"><i class="fa-solid fa-burger icon"></i></div>
+        <div class="daire display"><i class="fa-solid fa-car-side icon"></i></div>
+        <div class="daire display"><i class="fa-solid fa-bag-shopping icon"></i></div>
+        <div class="daire display"><i class="fa-solid fa-earth-americas icon"></i></div>
+        </div>
+        <div class="altyazı">
+            <a style="margin: 40px;">Apartments </a>
+            <a style="margin: 15px;">Food & Life    </a>
+            <a style="margin: 62px;">Cars </a>
+            <a style="margin: 20px;">Shopping </a>
+            <a style="margin: 50px;">Traveling </a>
+        </div>
+        </div>
+        <div class="alt">
+            <h1 style="line-height:150px;font-size: 40px;">Popular Categories</h1>
+            <a style="color: grey; position:absolute;left:590px;top:110px;font-size:15px;">CHECK THEM OUT</a>
+        </div>
+        <div class="alt2">
+            <div class="yantaraf">
+                 <div class="yan1" onclick="gizleGoster('yan1')" onclick="myFunctionn()" id="reng" ><div class="daire3"><i class="fa-solid fa-house icon"></i><a class="yazi">Apartments</a></div></div>
+                 <div class="yan2" onclick="gizleGoster('yan2')" onclick="myFunctionn()" id="reng"><div class="daire3" ><i class="fa-solid fa-burger icon"></i><a class="yazi">Food&Life</a></div></div>
+                 <div class="yan3" onclick="gizleGoster('yan3')" onclick="myFunctionn()" id="reng"><div class="daire3"><i class="fa-solid fa-car-side icon"></i><a class="yazi"> Cars</a></div></div>
+                 <div class="yan4" onclick="gizleGoster('yan4')" onclick="myFunctionn()" id="reng"><div class="daire3"><i class="fa-solid fa-bag-shopping icon"></i><a class="yazi"> Shopping</a></div></div>
+                 <div class="yan5" onclick="gizleGoster('yan5')" onclick="myFunctionn()" id="reng"><div class="daire3"><i class="fa-solid fa-earth-americas icon"></i><a class="yazi"> Traveling</a></div></div>
+            </div>
+            <div class="yan1div" id="yan1">
+                <img style="width:350px;height:450px;float:right;border-radius:10px;" src="/tabs-image-01.jpg">
+                <div style="position: absolute;top: 100px;width: 400px;">
+                    <br><br><br>
+                    <h1 style="color: white; font-size:23px;">One Of The Most Trending Stuffs Right Now!</h1>
+                    <br><br>
+                    <a style="color: white;font-size: 17px;">Plot Listing is a responsive Bootstrap 5 website template that included 4 different HTML pages. This template is provided by TemplateMo website. You can apply this layout for your static or dynamic CMS websites.</a>
+                    <button style="position: absolute;left:50px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color:  #8d99af;position: absolute;left: 40px;bottom:4px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div> Discover More  </button></div>
+        
+            </div>
+            <div class="yan2div" id="yan2">
+                <img style="width:350px;height:450px;float:right;border-radius:10px;" src="bes.jpg">
+                <div  style="position: absolute;top: 100px;width: 400px;">
+                <br><br><br>
+                <h1 style="color: white; font-size:23px;">Food and Lifestyle category is here</h1>
+                <br><br>
+                <a style="color: white;font-size: 17px;">You can feel free to download, edit and apply this template for your website. Please tell your friends about TemplateMo website.</a>
+                <button style="position: absolute;left:50px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color:  #8d99af;position: absolute;left: 40px;bottom:4px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div>  Explore More </button>
+            </div>
+            </div>
+            <div class="yan3div" id="yan3">
+                <img style="width:350px;height:450px;float:right;border-radius:10px;" src="off.jpg">
+                <div  style="position: absolute;top: 100px;width: 400px;" >
+                <br><br><br>
+                <h1 style="color: white; font-size:23px;">Shopping List: Images from Unsplash</h1>
+                <br><br>
+                <a style="color: white;font-size: 17px;">Image credits go to Unsplash website that provides free stock photos for anyone. Images used in this Plot Listing template are from Unsplash.</a>
+                <button style="position: absolute;left:50px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color: #8d99af;position: absolute;left: 40px;bottom:4px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div> Discover More</button>
+            </div>
+            </div>
+            <div class="yan4div" id="yan4">
+                <img style="width:350px;height:450px;float:right;border-radius:10px;" src="abla.jpg">
+                <div  style="position: absolute;top: 100px;width: 400px;">
+                <br><br><br>
+                <h1 style="color: white; font-size:23px;">Best car rentals for your trips!</h1>
+                <br><br>
+                <a style="color: white;font-size: 17px;">Did you know? You can get the best free HTML templates on Too CSS blog. Visit the blog pages and explore fresh and latest website templates.</a>
+                <button style="position: absolute;left:50px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color: #8d99af;position: absolute;left: 40px;bottom:4px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div>  Explore More </button>
+            </div>
+            </div>
+            <div class="yan5div" id="yan5">
+                <img style="width:350px;height:450px;float:right;border-radius:10px;" src="sahil.jpg">
+                <div style="position: absolute;top: 100px;width: 400px;">
+                <br><br><br>
+                <h1 style="color: white; font-size:23px;">Information and Safety Tips for Traveling</h1>
+                <br><br>
+                <a style="color: white;font-size: 17px;">You are allowed to use this template for your commercial websites. You are NOT allowed to redistribute this template ZIP file on any Free CSS collection websites.</a>
+                <button style="position: absolute;left:50px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color: #8d99af;position: absolute;left: 40px;bottom:4px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div>Read More
+                </button>
+            </div>
+            </div>
+
+        </div>
+        <div class="alt3">
+            <h1 style="text-align: center;line-height:190px;font-size: 40px;">Recent Listing</h1>
+            <a style="color: grey; position:absolute;left:590px;top:120px;font-size:15px;">CHECK THEM OUT</a>
+        </div>
+        <div class="alt4" ><img style="width:480px;height:377px;border-radius: 10px 0px 0px 10px" src="zort.jpg">
+            <h1 style=" color: rgb(51, 49, 49);position: absolute;top: 80px;left: 540px;">2.Another House of Gaming</h1>
+            <a style="position: absolute;top: 120px;right: 466px;font-size: 15px;color: #93a0b3;">by:Sale Agent</a>
+            <a style="color: grey; position: absolute;right: 40px;top: 70px;"><i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             <i class="fa-regular fa-star"></i>
+             (24) Reviews
+         </a>
+         <div class="etiket"><i style="font-size: 20px;position: absolute;left: 7px;top:7px;color: rgb(255, 255, 255);" class="fa-solid fa-tags"></i></div>
+         <a style="position: absolute;left:590px;top: 178px;color: #95979b;font-size: 15px;">$1,400 - $3,500 / month with taxes </a>
+         <a style="position: absolute;left:540px;top: 210px;color: #95979b;font-size: 15px;">Details: </a>
+         <a style="position: absolute;left:595px;top: 210px;color: #484a4b;font-size: 15px;"> 3650 sq ft </a>
+         <a style="color:   #8d99af ; position: absolute;top: 260px;left: 545px;" ><i style="font-size: 20px;" class="fa-solid fa-bed"></i> </a>
+         <a style="color:   #484a4b ; position: absolute;top: 265px;left: 585px;"> 4 Bedrooms</a>
+         <a style="color:   #8d99af ; position: absolute;top: 290px;left: 545px;" ><i style="font-size: 20px;" class="fa-solid fa-bath"></i> </a>
+         <a style="color:   #484a4b ; position: absolute;top: 295px;left: 585px;"> 3 Bathrooms</a>
+         <button style="position: absolute;left:750px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color:#8d99af;position: absolute;left: 40px;bottom:2px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div> Contact Now </button>
+         
+
+
+
+
+        </div>
+        <div class="alt5"><img style="width:480px;height:377px;border-radius: 10px 0px 0px 10px" src="listing-02.jpg">
+           <h1 class="başlık"> 1.First Apartment Unit</h1>
+           <a style="position: absolute;top: 120px;right: 466px;font-size: 15px;color: #93a0b3;">by:Sale Agent</a>
+           <a style="color: grey; position: absolute;right: 40px;top: 70px;"><i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            (18) Reviews
+        </a>
+        <div class="etiket"><i style="font-size: 20px;position: absolute;left: 7px;top:7px;color: rgb(255, 255, 255);" class="fa-solid fa-tags"></i></div>
+        <a style="position: absolute;left:590px;top: 178px;color: #95979b;font-size: 15px;">$450 - $950 / month with taxes </a>
+        <a style="position: absolute;left:540px;top: 210px;color: #95979b;font-size: 15px;">Details: </a>
+        <a style="position: absolute;left:595px;top: 210px;color: #484a4b;font-size: 15px;"> 2760 sq ft </a>
+        <a style="color:   #8d99af ; position: absolute;top: 260px;left: 545px;" ><i style="font-size: 20px;" class="fa-solid fa-bed"></i> </a>
+        <a style="color:   #484a4b ; position: absolute;top: 265px;left: 585px;"> 4 Bedrooms</a>
+        <a style="color:   #8d99af ; position: absolute;top: 290px;left: 545px;" ><i style="font-size: 20px;" class="fa-solid fa-bath"></i> </a>
+        <a style="color:   #484a4b ; position: absolute;top: 295px;left: 585px;"> 3 Bathrooms</a>
+        <button style="position: absolute;left:750px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color:#8d99af;position: absolute;left: 40px;bottom:2px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div> Contact Now </button>
+        
+    </div>
+            <div class="alt6"><img style="width:480px;height:377px;border-radius: 10px 0px 0px 10px" src="ev.jpg">
+                    <h1 style=" color: rgb(51, 49, 49);position: absolute;top: 80px;left: 540px;">3. Secret Place Hidden House</h1>
+                    <a style="position: absolute;top: 120px;right: 466px;font-size: 15px;color: #93a0b3;">by:Best Property</a>
+                    <a style="color: grey; position: absolute;right: 40px;top: 70px;"><i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                     (36) Reviews
+                 </a>
+                 <div class="etiket"><i style="font-size: 20px;position: absolute;left: 7px;top:7px;color: rgb(255, 255, 255);" class="fa-solid fa-tags"></i></div>
+                 <a style="position: absolute;left:590px;top: 178px;color: #95979b;font-size: 15px;">$1,500 - $3,600 / month with taxes </a>
+                 <a style="position: absolute;left:540px;top: 210px;color: #95979b;font-size: 15px;">Details: </a>
+                 <a style="position: absolute;left:595px;top: 210px;color: #484a4b;font-size: 15px;"> 5500 sq ft </a>
+                 <a style="color:   #8d99af ; position: absolute;top: 260px;left: 545px;" ><i style="font-size: 20px;" class="fa-solid fa-bed"></i> </a>
+                 <a style="color:   #484a4b ; position: absolute;top: 265px;left: 585px;"> 4 Bedrooms</a>
+                 <a style="color:   #8d99af ; position: absolute;top: 290px;left: 545px;" ><i style="font-size: 20px;" class="fa-solid fa-bath"></i> </a>
+                 <a style="color:   #484a4b ; position: absolute;top: 295px;left: 585px;"> 3 Bathrooms</a>
+                 <button style="position: absolute;left:750px;top: 280px;" class="btn t"><div style="width:30px;height:30px;border-radius:25px;background-color:#8d99af;position: absolute;left: 40px;bottom:2px;"><i style="position: absolute;left: 7px;top: 7px; color: white;" class="fa-solid fa-eye "></i></div> Contact Now </button>
+                 
+        
+            </div>
+            <div class="alt7">
+                <h1 class="lt2">Helpful Links</h1>
+                <div class="h">
+                    <as style="float: left;"></a>
+                    <a >Categories</a><br><br>
+                    <a >Reviews</a><br><br>
+                    <a >Listing</a><br><br>
+                    <a >Contact Us</a>
+                </div>
+                <div class="h2">
+                    <as style="float: left;"></a>
+                    <a >About Us</a><br><br>
+                    <a >Awards</a><br><br>
+                    <a >Useful Sites</a><br><br>
+                    <a >Privacy Policy</a>
+                </div>
+                <div class="lt3">
+                    <h1>Contact Us</h1>
+                    <a class="h3">27th Street of New Town, Digital Villa</a>
+                    <a class="solalt">010-020-0340</a>
+                    <a class="sağalt" >090-080-0760</a>
+                </div>
+                
+                <img style="position: absolute;left: 100px;top: 50px;" src="black-logo.png">
+                <h1></h1>
+                <div class="lt1">If you consider that Plot Listing template is useful for your website, please support us a little
+                    via PayPal.</div>
+                <div class="lt">
+                    <a>Copyright © 2021 Plot Listing Co., Ltd. All Rights Reserved.
+                        Design: TemplateMo</a>
+                </div>
+            </div>
+            <script>
+                function gizleGoster(ID) {
+                    let btn = document.getElementById(ID);
+                    let btn2 = document.getElementById('yan1');
+                    if (btn.style.display == "none") {
+                        btn.style.display = "block";
+                    } else {
+                        btn.style.display = "none";
+                    }
+                }
+
+            window.onscroll = function () { myFunction() };
+            var navbar = document.getElementById("navbarr");
+            var logo =document.getElementById("logo")
+            var sticky = navbar.offsetTop;
+               if(navbar.backgroundColor = "black")
+               {
+                logo.style.display ="none";
+               }            
+               else
+               {
+                logo.style.display = "block"
+               }
+            
+
+
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+            function myFunctionn() {
+            document.getElementById("reng").style.backgroundColor = "black";
+
+        }
+
+        </script>
+</body>
+
+</html>
